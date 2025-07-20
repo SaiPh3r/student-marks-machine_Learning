@@ -1,0 +1,11 @@
+prefix=/Users/saianand/Documents/student-marks-machine_Learning/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/saianand/Documents/student-marks-machine_Learning/env/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
